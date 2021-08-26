@@ -24,7 +24,7 @@ RSpec.feature "Visitor navigates to a Product Details page", type: :feature, js:
     first('.product').click_on "Details"
 
     # DEBUG
-    save_and_open_screenshot
+    # save_and_open_screenshot
 
     # VERIFY
     expect(page).to have_css 'article.product-detail'
